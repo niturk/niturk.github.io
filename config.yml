@@ -1,0 +1,30 @@
+baseURL: "https://niturk.github.io"
+title: Nikita TÜRKMEN
+theme: PaperMod
+
+defaultContentLanguage: tr
+
+params:
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  showToc: true
+  ShowPostNavLinks: true
+  DateFormat: "2 January 2006"
+  comments: true
+  label:
+    text: "Nikita"
+menu:
+  main:
+    - identifier: kategoriler
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: arsivler
+      name: Arşivler
+      url: /arsivler/
+      weight: 30
