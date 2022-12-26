@@ -6,6 +6,7 @@ defaultContentLanguage: tr
 enableRobotsTXT: true
 
 googleAnalytics: G-67XWG13413
+disqusShortname: nikitas-blog
 
 minify:
   disableXML: true
