@@ -12,6 +12,7 @@ minify:
   minifyOutput: true
 
 params:
+  env: production
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
