@@ -3,6 +3,13 @@ title: Nikita TÜRKMEN
 theme: PaperMod
 
 defaultContentLanguage: tr
+enableRobotsTXT: true
+
+googleAnalytics: G-67XWG13413
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
   ShowBreadCrumbs: true

@@ -1,8 +1,8 @@
 +++
 title = "Python'a Giriş"
 date = "2022-12-25T10:00:00+03:00"
-categories = ["python", ""]
-tags = ["python", ""]
+categories = ["python", "temel-python-egitimi"]
+tags = ["python", "python-giris"]
 +++
 
 

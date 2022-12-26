@@ -1,7 +1,7 @@
 +++
 title = "pip İle Paket Kurulumu ve Pipenv Kullanımı"
 date = "2022-12-25T11:00:00+03:00"
-categories = ["python", ""]
+categories = ["python", "temel-python-egitimi"]
 tags = ["python", "pipenv"]
 +++
 
