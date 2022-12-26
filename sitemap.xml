@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://nikitaturkmen.com/categories/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/posts/2-pip_pipenv/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/tags/pipenv/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/posts/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/tags/python/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/categories/python/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/tags/</loc><lastmod>2022-12-25T11:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/posts/1-python_giris/</loc><lastmod>2022-12-25T10:00:00+03:00</lastmod></url><url><loc>https://nikitaturkmen.com/arsivler/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nikitaturkmen.com/categories/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/posts/2-pip_pipenv/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/tags/pipenv/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/posts/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/tags/python/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/categories/python/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/tags/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/categories/temel-python-egitimi/</loc>
+    <lastmod>2022-12-25T11:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/tags/python-giris/</loc>
+    <lastmod>2022-12-25T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/posts/1-python_giris/</loc>
+    <lastmod>2022-12-25T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://nikitaturkmen.com/arsivler/</loc>
+  </url>
+</urlset>
