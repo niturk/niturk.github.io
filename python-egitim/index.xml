@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Nikita TÜRKMEN</title>
-    <link>https://nikitaturkmen.com/posts/</link>
-    <description>Recent content in Posts on Nikita TÜRKMEN</description>
+    <title>Python-egitims on Nikita TÜRKMEN</title>
+    <link>https://nikitaturkmen.com/python-egitim/</link>
+    <description>Recent content in Python-egitims on Nikita TÜRKMEN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Dec 2022 11:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Dec 2022 11:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/python-egitim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pip İle Paket Kurulumu ve Pipenv Kullanımı</title>
-      <link>https://nikitaturkmen.com/posts/2-pip_pipenv/</link>
+      <link>https://nikitaturkmen.com/python-egitim/pip_pipenv_kurulumu/</link>
       <pubDate>Sun, 25 Dec 2022 11:00:00 +0300</pubDate>
       
-      <guid>https://nikitaturkmen.com/posts/2-pip_pipenv/</guid>
+      <guid>https://nikitaturkmen.com/python-egitim/pip_pipenv_kurulumu/</guid>
       <description>Pip ile Paket Kurulumu Python standart kütüphaneleri en temel paketlerdir. Bu paketlerin dışındaki paketleri kurmak için pip paket yöneticisini kullanırız. Python kurulumu ile birlikte pip de kurulur. pip ile paket kurulumu için pip install komutunu kullanırız.
 Örneğin web sitelerine giriş yaparak bir sayfanın içeriğini almak istiyorsunuz. Bunun için bir kütüphane kurmanız gerekiyor. requests paketini kullanalım, terminal açarak aşağıdaki komutu girin.
 pip install requests Bu paketi sanal ortamda kurmak için önce sanal ortamı aktif etmeniz gerekmektedir.</description>
@@ -19,10 +19,10 @@ pip install requests Bu paketi sanal ortamda kurmak için önce sanal ortamı ak
     
     <item>
       <title>Python&#39;a Giriş</title>
-      <link>https://nikitaturkmen.com/posts/1-python_giris/</link>
+      <link>https://nikitaturkmen.com/python-egitim/pythona_giris/</link>
       <pubDate>Sun, 25 Dec 2022 10:00:00 +0300</pubDate>
       
-      <guid>https://nikitaturkmen.com/posts/1-python_giris/</guid>
+      <guid>https://nikitaturkmen.com/python-egitim/pythona_giris/</guid>
       <description>Python Nedir ? Python, Guido van Rossum tarafından 1989 yılında geliştirilmeye başlanmış bir yazılım dilidir. Günümüzde &amp;ldquo;Core Developer&amp;rdquo; olarak adlandırılan geliştiriciler tarafından geliştirilmeye devam etmektedir. Bu eğitimde Python 3.11 sürümü kullanılmıştır.
 Günümüzde Popüler Kullanım Alanları
 Web Geliştirme (Django, Flask, FastAPI) Oyun Geliştirme (Pygame, Pyglet) Grafiksel Kullanıcı Arayüzü (PyQt, PySide, Kivy) Bilgisayarlı Görü (OpenCV, Scikit-Image) Elektronik (MicroPython) Veri Bilimi ve Makine Öğrenmesi Başlıca popüler kullanım alanlarını bu şekilde sıralayabiliriz.

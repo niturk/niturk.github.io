@@ -8,10 +8,10 @@
     <lastBuildDate>Sun, 25 Dec 2022 11:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/tags/pipenv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pip İle Paket Kurulumu ve Pipenv Kullanımı</title>
-      <link>https://nikitaturkmen.com/posts/2-pip_pipenv/</link>
+      <link>https://nikitaturkmen.com/python-egitim/pip_pipenv_kurulumu/</link>
       <pubDate>Sun, 25 Dec 2022 11:00:00 +0300</pubDate>
       
-      <guid>https://nikitaturkmen.com/posts/2-pip_pipenv/</guid>
+      <guid>https://nikitaturkmen.com/python-egitim/pip_pipenv_kurulumu/</guid>
       <description>Pip ile Paket Kurulumu Python standart kütüphaneleri en temel paketlerdir. Bu paketlerin dışındaki paketleri kurmak için pip paket yöneticisini kullanırız. Python kurulumu ile birlikte pip de kurulur. pip ile paket kurulumu için pip install komutunu kullanırız.
 Örneğin web sitelerine giriş yaparak bir sayfanın içeriğini almak istiyorsunuz. Bunun için bir kütüphane kurmanız gerekiyor. requests paketini kullanalım, terminal açarak aşağıdaki komutu girin.
 pip install requests Bu paketi sanal ortamda kurmak için önce sanal ortamı aktif etmeniz gerekmektedir.</description>
