@@ -42,7 +42,8 @@ class Handler(FileSystemEventHandler):
         elif event.event_type == 'modified':
             # Taken any action here when a file is modified.
             try:
-                writer.convert(event.src_path, base_path, 'posts')
+                dir_name = os.path.basename(os.path.dirname(event.src_path))
+                writer.convert(event.src_path, base_path, dir_name)
             except Exception as e:
                 print(e)
             print("Received modified event - %s." % event.src_path)

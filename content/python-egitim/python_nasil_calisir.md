@@ -53,8 +53,17 @@ Hello World
 - Karmaşık uygulamalar geliştirebilirsiniz. (web servisleri, grafik arayüzleri, kütüphaneler vb.)
 - Python kodlarının dosya uzantısı `.py` dir.
 - Kodlarınızı herhangi bir metin editörünüde yazabilirsiniz. (vim, emacs, nano, vscode, atom, pycharm, spyder, jupyter notebook vb.)
-Ancak yazılım geliştirme ortamı kullanmanız daha iyi olacaktır. Python için geliştirilmiş bir çok editör mevcuttur. Bu editörlerin başında `vscode` ve `pycharm` gelmektedir. Bu editörlerin, diğer editörlerden en önemli özellikleri size python kodu yazarken veya test ederken sahip oldukları çeşitli araçlarla yardımcı olarak konfor sağlamalarıdır.
-- Eğitime [vscode](https://code.visualstudio.com/) kod editörü ile devam edeceğiz. Bu editörü kurmak için [buraya](https://code.visualstudio.com/download) tıklayabilirsiniz. Bir sonraki yazımızda bu editörü `python editörü` yapacağız ve kodlarımızı yazmaya başlayacağız.
+Ancak yazılım geliştirme ortamı kullanmanız daha iyi olacaktır. Python için geliştirilmiş bir çok editör mevcuttur.  
+Bu editörlerin başında;
+    - `vscode`
+    - `pycharm`
+    - `atom` 
+    - `spyder`  
+gelmektedir. 
+    
+Bu editörlerin, diğer editörlerden en önemli özellikleri size python kodu yazarken veya test ederken sahip oldukları çeşitli araçlarla yardımcı olarak konfor sağlamalarıdır.
+- Yeni başlayanlara `pycharm` önerilmektedir. Topluluk ve Profesyonel sürümleri bulunmaktadır. Topluluk sürümü ücretsizdir. Profesyonel sürümü ise ücretlidir. Sadece Pythona özel geliştirilmiş bir ide(Yazılım geliştirme ortamı) dir.
+- Eğitime [vscode](https://code.visualstudio.com/) kod editörü ile devam edeceğiz. VsCode sahip olduğu eklentiler sayesinde istenildiği gibi bir ide haline getirilebiliyor. Birden fazla yazılım dili ile uğraşıyorsanız muhtemelen en iyi seçenek bu olacaktır. VsCode editörünü kurmak için [buraya](https://code.visualstudio.com/download) tıklayabilirsiniz. Bir sonraki yazımızda bu editörü `python editörü` yapacağız ve kodlarımızı yazmaya başlayacağız.
 
 &nbsp;
 
