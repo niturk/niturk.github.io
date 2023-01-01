@@ -5,7 +5,64 @@
     <link>https://nikitaturkmen.com/tags/python/</link>
     <description>Recent content in python on Nikita TÜRKMEN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Dec 2022 11:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temel Python&#39;a Giriş - 3</title>
+      <link>https://nikitaturkmen.com/python-egitim/temel_python_3/</link>
+      <pubDate>Fri, 30 Dec 2022 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/temel_python_3/</guid>
+      <description>Karşılaştırma Operatörleri Eşitlik operatörü == iki nesneyi karşılaştırır ve eşitse True değilse False cevabını verir. İşlem sırasında python __eq__ fonksiyonunu çağırır ve işlemi bu fonksiyonun sonucuna göre yapar.
+10 == 10 &amp;gt; 10.__eq__(10) fonksiyonu çağırılır ve sonuç True döner. 10 == 20 sonucu False olur. Eşit değil operatörü != iki nesneyi karşılaştırır ve eşit değilse True eşitse False cevabını verir. İşlem sırasında python __ne__ fonksiyonunu çağırır ve işlemi bu fonksiyonun sonucuna göre yapar.</description>
+    </item>
+    
+    <item>
+      <title>Temel Python&#39;a Giriş - 2</title>
+      <link>https://nikitaturkmen.com/python-egitim/temel_python_2/</link>
+      <pubDate>Thu, 29 Dec 2022 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/temel_python_2/</guid>
+      <description>Değişkenler Oluşturduğumuz nesneleri ne için kullandığımızı anlamak için değişkenlere ihtiyacımız vardır. Örneğin bir_sayi değişkenine bir sayı atamak için = operatörünü kullanırız.
+bir_sayi = 5 hesap_bakiyem = 1000.50 Artık bir_sayi etiketine sahip bir int nesnesine sahip olduk ve 5 değerini verdik. Bu nesneyi kullanmak için bir_sayi etiketini kullanabiliriz. Ekrana yazdıralım.
+print(bir_sayi) 5 Atadığımız bu etiketleri aslında nesnenin kendisi değildir, nesneyi bulmamızı sağlayan referans numarasıdır. Nesnenin kendisi bellekteki bir yerde saklanır.
+# Değişkenler tüm veri tiplerini tutabilir bir_sayi = 5 bir_ondalikli_sayi = 5.</description>
+    </item>
+    
+    <item>
+      <title>Temel Python&#39;a Giriş - 1</title>
+      <link>https://nikitaturkmen.com/python-egitim/temel_python/</link>
+      <pubDate>Wed, 28 Dec 2022 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/temel_python/</guid>
+      <description>Bu bölümde temel python kod eğitimine başlıyoruz.
+Bölüm kapsamında odaklanacağımız konular;
+Temel python veri tipleri int, float, boolean Nesne kavramına giriş Temel operatörler ile işlemler +, -, *, /, **, %, // Temel karşılaştırma operatörleri ==, !=, &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;= Temel mantıksal operatörler and, or, not Temel operatör öncelikleri Bu eğitim mühendislik öğrencileri için hazırlanmaktadır. Temel seviyede bilgisayar bilimi bilgisi gerekmektedir!
+Temel Veri Tipleri Yazılım dillerinde verilerin her zaman bir tipi olmak zorundadır.</description>
+    </item>
+    
+    <item>
+      <title>Python Geliştirme Ortamı: VsCode</title>
+      <link>https://nikitaturkmen.com/python-egitim/python_idesi_vscode/</link>
+      <pubDate>Tue, 27 Dec 2022 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/python_idesi_vscode/</guid>
+      <description>Python Geliştirme Ortamı: VsCode VsCode, ücretsiz ve açık kaynak kodlu bir çoklu platform kod editörüdür. Electron ile geliştirildiği için hemen hemen her işletim sisteminde problemsiz kullanılabilmektedir(Windows, Linux, Mac, Arm). Bu kod editörü microsoft tarafından geliştirilmektedir. Kaynak koduna buradan ulaşabilirsiniz.
+VsCode ilk kurulumda temel özellikler ile gelir. Kullandığınız teknolojilere göre eklentiler yükleyerek kişiselleştirmenize olanak tanır. Bu eklentileri, eklentiler üzerinden indirebilirsiniz.
+Eğer birçok programlama dili veya aracı kullanıyorsanız VsCode sizin içinde en iyi tercihlerden birisi olacaktır.</description>
+    </item>
+    
+    <item>
+      <title>Python Kodları Nasıl Çalışır?</title>
+      <link>https://nikitaturkmen.com/python-egitim/python_nasil_calisir/</link>
+      <pubDate>Mon, 26 Dec 2022 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/python_nasil_calisir/</guid>
+      <description>Python Kodları Nasıl Çalışır? Python kaynak kodu sadece bir metin dosyasıdır. Python kodları hem derlenmekte hemde yorumlanmaktadır.
+Python kodları iki şekilde çalışmaktadır.
+İnteraktif mod Script modu Daha önceki yazımızda sanal ortamdan bahsetmiştik, Bu iki mod içinde sanal ortam kullanımı aynı şekildedir. Sanal ortamınızı ister venv ister pipenv ile oluşturup aktif ettikten sonra interaktif veya script modunda python kodlarınızı çalıştırabilirsiniz.
+İnteraktif Mod Python kodlarını çalıştırmak için bir terminal açıp python yazıp enter tuşuna basmanız yeterlidir.</description>
+    </item>
+    
     <item>
       <title>pip İle Paket Kurulumu ve Pipenv Kullanımı</title>
       <link>https://nikitaturkmen.com/python-egitim/pip_pipenv_kurulumu/</link>
