@@ -5,7 +5,69 @@
     <link>https://nikitaturkmen.com/</link>
     <description>Recent content on Nikita TÜRKMEN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Dec 2022 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Döngüler</title>
+      <link>https://nikitaturkmen.com/python-egitim/donguler/</link>
+      <pubDate>Thu, 05 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/donguler/</guid>
+      <description>Döngüler en çok kullanılan yapılardan biridir. Döngüleri bir kodu tekrar tekrar yazmadan tekrar etmek için kullanırız. İki çeşit döngü vardır.
+Sonlu döngüler, belirli bir sayıda tekrar etmek için kullanılır. Sonsuz döngüler, bir koşul sağlandığı sürece tekrar etmek için kullanılır. Dolayısıyla burada karar yapısıyla birlikte bir kullanım var. Bu iki çeşit için pythonda deterministik olanlar için for döngüsünü, deterministik olmayanlar içinde while döngüsünü kullanırız.
+Range Fonksiyonu range tekrarlanabilir bir objedir. Talep ettikçe size bir sayı verir.</description>
+    </item>
+    
+    <item>
+      <title>Stringler</title>
+      <link>https://nikitaturkmen.com/python-egitim/stringler/</link>
+      <pubDate>Wed, 04 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/stringler/</guid>
+      <description>Stringlerin sekans veri yapısı olduğunu görmüştük. Öncelikle stringler homojenik veri yapısına sahip yani stringlerin her bir elemanı bir karakterdir. Özel bir veri yapısı olduğu için özel metodları mevcuttur. Başlangıçta sadece ASCII karakterleri desteklenmekteydi. ASCII karakterleri 128 karakterden oluşmaktadır, bu karakterlerden 95 tanesi print edilebilir, 33 tanesi ise print edilemez. ASCII karakterlerinin hepsi 8 bitlik bir sayısal değere sahiptir. Bu sayısal değerlerin hepsi 0 ile 255 arasındadır. ASCII karakterlerinin sayısal değerlerini görmek için aşağıdaki tabloyu kullanabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Sekans Veri Tipleri - 3</title>
+      <link>https://nikitaturkmen.com/python-egitim/sekans_veri_tipleri_3/</link>
+      <pubDate>Tue, 03 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/sekans_veri_tipleri_3/</guid>
+      <description>Manipülasyon Değiştirilebilir(mutable) olan veri tipleri manipüle edilebilir. Listeler bu tipe oldukça güzel bir örnektir. Listelerde bir elemanı değiştirebilir, silebilir veya ekleyebilirsiniz. Genelde en çok eleman ekleme (append) işlemi yapılır.
+Bir Elemanı İndex Numarasına Göre Değiştirme En çok kullanılan yöntemdir. [index] ile elemanı seçebildiğimiz gibi değiştirebiliyoruzda aynı şekilde.
+# Tek bir elemanı index numarası ile değiştirebiliriz # Örneğin, 3. elemanı değiştirelim liste = [1, 2, 3, 4, 5] liste[2] = 10 print(liste) [1, 2, 10, 4, 5] Slice İle Birden Fazla Elamanı Değiştirme Çok kullanılan bir yöntem olmasada bazen ihtiyaç duyulabilir eğer belli bir aralıkta elemanları değiştirmek istiyorsanız bunu yapabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Sekans Veri Tipleri - 2</title>
+      <link>https://nikitaturkmen.com/python-egitim/sekans_veri_tipleri_2/</link>
+      <pubDate>Mon, 02 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/sekans_veri_tipleri_2/</guid>
+      <description>Slicing (Dilimleme) Slicing, sekans veri tiplerinden belli bir aralıktaki verileri almaya arar. Daha önce list, tuple ve stringlerden ve bu sekans veri tiplerinin elemanlarına index numarası ile erişebildiğimizden bahsetmiştik. Bu erişim tek bir eleman için geçerliydi. Slicing ile ise bir aralıkta bulunan elemanlara erişebiliriz. Slicing işleminde kullanılan ifadeyi dilimleme ifadesi olarak da adlandırabiliriz.
+Slicing başlangıç indexi dahil, bitiş indexi hariçtir. [başlangıç:bitiş] şeklinde kullanılır. # Bir liste üzerinden örneklerle açıklayalım # Bir liste oluşturalım liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] # Listedeki bir elemana index ile erişebiliyorduk liste[0] gibi # slice işlemi ile de bir alt liste oluşturabiliriz # liste[0:3] 0.</description>
+    </item>
+    
+    <item>
+      <title>Sekans Veri Tipleri - 1</title>
+      <link>https://nikitaturkmen.com/python-egitim/sekans_veri_tipleri/</link>
+      <pubDate>Sun, 01 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/sekans_veri_tipleri/</guid>
+      <description>Sekanslar sıralı obje koleksiyonlarıdır. Birden fazla birbiri ile bağlantılı verileri sıralı olarak tutmaya ihtiyaç duyarız. Bu verilerin sıralanmaya ihtiyacı vardır. Bu sıraya index adı verilir. Pythonda index 0 dan sayılmaya başlar.
+Bu durumda n elemanlı bir sekans için;
+ilk eleman 0 indexine sahiptir. ikinci eleman 1 indexine sahiptir. son eleman n-1 indexine sahiptir. Bu sekans veri tipleri homojen veya heterojen yapıda olabilir. Homojen yapıda olması için aynı veri tiplerinden bir sekans oluşturulmalıdır.</description>
+    </item>
+    
+    <item>
+      <title>Karar Yapıları</title>
+      <link>https://nikitaturkmen.com/python-egitim/karar_yapilari/</link>
+      <pubDate>Sat, 31 Dec 2022 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/karar_yapilari/</guid>
+      <description>Karar yapıları programlamanın temel yapı taşlarından birisidir. Yazdığımız kodlarda bazen duruma göre sonuç üretmemiz gerekebiliyor. İşte bu anlarda kullanacağımız yapı karar yapılarıdır. Örneğin yazacağımız uygulamamızda üyelere özel bir alan olsun. Bu alana kimlerin erişip kimlerin erişemeyeceğine karar vermemiz gerekecektir bu noktada bu yapıyı kullanabiliyoruz. Neredeyse tüm programlama dillerinde if else elif şeklindedir bu yapılar.
+if kullanıcı doğru bilgileri girdiyse sisteme girmesine izin ver else bilgilerde yanlışlık varsa sisteme girmesine izin verme ve hata mesajı göster.</description>
+    </item>
+    
     <item>
       <title>Temel Python&#39;a Giriş - 3</title>
       <link>https://nikitaturkmen.com/python-egitim/temel_python_3/</link>
