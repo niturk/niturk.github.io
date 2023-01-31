@@ -5,7 +5,39 @@
     <link>https://nikitaturkmen.com/categories/python/</link>
     <description>Recent content in python on Nikita TÜRKMEN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jan 2023 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jan 2023 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprehensionlar</title>
+      <link>https://nikitaturkmen.com/python-egitim/comprehensionlar/</link>
+      <pubDate>Sun, 22 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/comprehensionlar/</guid>
+      <description>Comprehensionlar pythonda listeleri, sözlükleri ve setleri döngü kullanarak basitçe oluşturmak için kullanılan bir yöntemdir. Kullanımı döngü kullanımına çok benzer.
+Basit veriler için çok kullanışlıdır ancak karmaşa arttıkça kodun okunabilirliği aniden azalır. Dikkatli olmak gerekir. Unutmayalım ki kısa kodlar yazmak her zaman iyi bir şey değildir. Kodumuzun okunabilirliği bizim için her zaman birinci sıradadır.
+Listelerde Comprehension Elimizde bir sayı demeti (tuple) olsun ve biz bu sayıların karelerinden oluşan bir liste oluşturmak istesek.</description>
+    </item>
+    
+    <item>
+      <title>Setler</title>
+      <link>https://nikitaturkmen.com/python-egitim/setler/</link>
+      <pubDate>Sat, 21 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/setler/</guid>
+      <description>Setler, matematikteki kümelere benzerdirler. Sekans veri tipleri gibi veri koleksiyonları tutarlar. Setlerde sıralama yoktur. Setlerde tekrar eden elemanlar olmaz. Her eleman benzersizdir. Setler döngülerde kullanılabilir. Ancak sıralama olmadığı için sırasızdır. Setlerin tipi set&amp;lsquo;dir. Setlerin içindeki elemanlar hashlenebilir olmalıdır. Setler değiştirilebilirdir (mutable). Dolayısıyla setlerin kendisi hashlenemezler. Setlerin içinde set kullanılmak isteniyorsa frozenset kullanılmalıdır. Çünkü frozenset hashlenebilir bir veri tipidir. Konumuz değil ancak isterseniz araştırabilirsiniz.
+Setler, matematikteki kümelerin fonksiyonlarına sahiptirler. Bunlar:</description>
+    </item>
+    
+    <item>
+      <title>Sözlükler</title>
+      <link>https://nikitaturkmen.com/python-egitim/sozlukler/</link>
+      <pubDate>Fri, 20 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/sozlukler/</guid>
+      <description>Sözlükler pythonda en önemli veri yapılarından birisidir. Ancak objeler bile aslında sözlüktür. Objelerin özellikleri ve metodları sözlüklerle objeye ilişkilendirilirler. Görmesek bile aslında python kodu yazarken her zaman sözlüklerle çalışıyoruz.
+Kullanıma uygun birkaç örnek vermek gerekirse;
+Bir telefon rehberi düşünün telefon ve kime ait olduğu tutulur, DNS servisinin çalışma biçimine bakıldığında web adresi ve IP adresi ilişkisi vardır, Okuduğumuz bir kitabın içindekiler bölümünde sayfa numaraları ile konular ilişkilidir. İşte tüm bu uygulamalar sözlükler sayesinde gerçekleştirilir.</description>
+    </item>
+    
     <item>
       <title>Döngüler</title>
       <link>https://nikitaturkmen.com/python-egitim/donguler/</link>
