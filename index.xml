@@ -5,7 +5,50 @@
     <link>https://nikitaturkmen.com/</link>
     <description>Recent content on Nikita TÜRKMEN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 22 Jan 2023 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jan 2023 18:00:00 +0300</lastBuildDate><atom:link href="https://nikitaturkmen.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modüller ve İmport</title>
+      <link>https://nikitaturkmen.com/python-egitim/moduller_importlar/</link>
+      <pubDate>Fri, 27 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/moduller_importlar/</guid>
+      <description>Bazen bir dosyada çok fazla kod yazdığımızda aradığımız şeyi bulmakta ve yönetmekte zorlanırız. Bu durumlarda kodumuzu farklı dosyalara ayırarak daha düzenli bir şekilde yazabiliriz. Bu dosyalara modüller denir.
+Built-in Objeler ve Fonksiyonlar Python&amp;rsquo;da hazır olarak gelen objeler ve fonksiyonlar vardır. Bu objeler ve fonksiyonlar built-in modülü içerisinde yer alır. Bu modülü import etmeden kullanabiliriz.
+bool, int, float, str, list, tuple, dict, set, range, len, print, input, type, id, dir, help gibi objeler ve fonksiyonlar built-in modülü içerisinde yer alır.</description>
+    </item>
+    
+    <item>
+      <title>Dosya İşlemleri</title>
+      <link>https://nikitaturkmen.com/python-egitim/dosya_islemleri/</link>
+      <pubDate>Thu, 26 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/dosya_islemleri/</guid>
+      <description>Dosya okuma işlemlerini yapabilmek için open() fonksiyonunu kullanırız. Bu fonksiyonun iki parametresi vardır. İlk parametre dosya adı, ikinci parametre ise dosya açma modudur.
+Dosya açma modları şunlardır:
+r : Dosyayı okuma modunda açar. Bu mod varsayılan moddur. w : Dosyayı yazma modunda açar. Eğer dosya mevcut ise içerik silinir. a : Dosyayı yazma modunda açar. Eğer dosya mevcut ise içerik silinmez ve dosyanın sonuna ekleme yapılır. dosya_adi = &amp;#34;deneme.txt&amp;#34; dosya = open(dosya_adi, &amp;#34;r&amp;#34;) print(dosya.</description>
+    </item>
+    
+    <item>
+      <title>Fonksiyonlar</title>
+      <link>https://nikitaturkmen.com/python-egitim/fonksiyonlar/</link>
+      <pubDate>Wed, 25 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/fonksiyonlar/</guid>
+      <description>Fonksiyonlar en işlevsel yapılardan biridir. Kod tekrarını önlemek için ve kompleks olan kodları parçalara bölmek için ihtiyacımız vardır. Fonksiyon çağrıları yaparken argüman ve parametreler kullanırız. Teknik olarak ikiside aynı şeydir ve sık sık birbirine karıştırılır.
+Fonksiyon yaratırken parametreleri kullanırız. Fonksiyon çağrıları yaparken argümanları kullanırız. Fonksiyonlar her python nesnesi olduğu gibi bir nesnedir ve değişkene atanır. Fonksiyonların durum, kod ve parametreleri vardır. Ayrıca çağrı yapılabilecek bir nesnedir.
+Çağrılabilen Nesneler () parantez ile çağrılabilen nesnelere çağrılabilir nesneler diyoruz.</description>
+    </item>
+    
+    <item>
+      <title>Hata Yakalama</title>
+      <link>https://nikitaturkmen.com/python-egitim/hata_yakalama/</link>
+      <pubDate>Mon, 23 Jan 2023 18:00:00 +0300</pubDate>
+      
+      <guid>https://nikitaturkmen.com/python-egitim/hata_yakalama/</guid>
+      <description>Hiçbir kod hata vermesi için tasarlanmaz ancak bazı durumlarda hata olabilme olasılığı vardır. Genelde bu hatalar kullanıcı tarafından alınacak verilerden kaynaklanır. Örneğin siz kullanıcıdan adını yazmasını istiyorsunuz ama kullanıcı yazmadı veya string yerine sayılar kullandı işte bu tarz beklenmedik senaryolara önlem almak için hata yakalama yaparız. Bu hatalar genelde beklenmedik hatalardır.
+Her hata bizim için kritik değildir. Önemli olan hata oluşabilecek yerleri yakalamak ve kodu devam ettirmektir. Yakalanmayan bir hata bırakılırsa programımız duracak ve çalışmaya devam edemeyecektir.</description>
+    </item>
+    
     <item>
       <title>Comprehensionlar</title>
       <link>https://nikitaturkmen.com/python-egitim/comprehensionlar/</link>
