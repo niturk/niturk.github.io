@@ -79,7 +79,7 @@ True = 5
 ```
 
 
-      Cell In[59], line 1
+      Cell In[3], line 1
         True = 5
         ^
     SyntaxError: cannot assign to True

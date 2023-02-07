@@ -3,7 +3,7 @@ title = "Hata Yakalama"
 date = "2023-01-23T18:00:00+03:00"
 categories = ["python", "temel-python-egitimi"]
 tags = ["python", ""]
-draft = "true"
+draft = "false"
 +++
 
 
@@ -153,3 +153,54 @@ print(f'Sonuc : {sonuc}')
 
 
 > Yukarıdaki kod örneğimizde 0 a bölme hatası oluştu ancak hiçbir hata mesajı almadık çünkü hatayı yakaladık. Ardından sonuç değişkenini tanımsız olarak belirledik ve programımızı devam ettirdik.
+
+### Hata Yakalama ve Yeniden Hata Fırlatma
+
+Bazen yakaladığımız bir hatadan sonra aynı hatayı veya farklı bir hatayı fırlatmak isteyebiliyoruz.
+Bunu iki sebepten yapabiliyoruz;
+- Bazen ilgili kod bölümünde yapabileceğimiz bir işlem yoktur. Bu durumda hata fırlatmak isteyebiliriz.
+- Hatayı daha anlaşılır bir hata mesajı ile fırlatmak isteyebiliriz.
+
+
+```python
+# Örneğin tekrar hata fırlatmayı kayıt almak için kullanabiliyoruz.
+try:
+    pass
+except Exception as ex:
+    log(ex)
+    raise
+```
+
+### Aynı Anda Birden Fazla Hata Yakalama
+
+Bazen bir kod parçasında birden fazla hata oluşabilir. Bu durumda `except` bloğuna birden fazla hata yazabiliriz.
+Python uyumlu olan ilk hata tipi için `except` bloğu çalışır. Bu durumda diğer hata tipleri için `except` bloğu çalışmaz.
+
+
+```python
+try:
+    pass
+except IndexError as ex:
+    pass
+except ValueError as ex:
+    pass
+except Exception as ex:
+    pass
+```
+
+### Finaly Bloğu
+
+`finally` bloğunu hata olsun veya olmasın çalışması istenen bölümdür. Genelde kesin çalışması gereken kod parçaları için kullanılır. Örneğin dosya veya database bağlantısının kapatılması çok kritik bir işlemdir.
+
+
+```python
+try:
+    pass
+except (IndexError, ValueError) as ex:
+    pass
+finally:
+    print('Her durumda çalışır.')
+```
+
+    Her durumda çalışır.
+
